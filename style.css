@@ -1,0 +1,63 @@
+body {
+    background-image: url('to-do.jpg');
+    background-position: center;
+    background-size: cover;
+	font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#task-list {
+   align-items: center;
+	list-style: none;
+	padding: 100px;
+    width: 30%;
+    height: 10%;
+    margin-left:45%;
+    margin-bottom: 15%;
+}
+.actions {
+	display: flex;
+	margin-left: 10px;
+}
+.edit-btn, .delete-btn, .done-btn {
+	background-color: #11cbeb;
+    margin-left: 8%;
+	color: #fff;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.edit-btn:hover, .delete-btn:hover, .done-btn:hover {
+	background-color: #3e8e41;
+}
+#task-list li {
+	background-color: #68cc3d64;
+	padding: 10px;
+	border-bottom: 10px solid #1d1c1c;
+    border-radius: 50px;
+}
+
+#task-list li:last-child {
+	border-bottom: none;
+    padding: 10px;
+    border-radius: 50px;
+    border-bottom: 10px solid #1d1c1c;
+}
+
+#add-task-btn {
+	background-color: rgb(6, 44, 87);
+	color: #fff;
+	padding: 20px 50px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+#new-task-input {
+	padding: 10px;
+	border: 10px solid #1818188d;
+	border-radius: 50px;
+}
